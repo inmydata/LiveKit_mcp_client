@@ -79,8 +79,16 @@ User Hears Answer
 3. Create a `.env` file:
 
    ```env
+   # API Keys
    OPENAI_API_KEY=your_openai_api_key
    DEEPGRAM_API_KEY=your_deepgram_api_key
+
+   # LiveKit Configuration
+   LIVEKIT_URL=wss://your-livekit-server.livekit.cloud
+   LIVEKIT_API_KEY=your_livekit_api_key
+   LIVEKIT_API_SECRET=your_livekit_api_secret
+
+   # MCP Server
    MCP_SERVER_URL=https://your-mcp-server.com/mcp
    ```
 
