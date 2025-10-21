@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile agent.py mcp_client/announcements.py)",
+      "Bash(python -m py_compile mcp_client/announcements.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
